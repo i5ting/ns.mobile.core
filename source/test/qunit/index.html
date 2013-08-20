@@ -24,17 +24,28 @@
   <script src="vendor/qunit.js"></script>
   
   <!-- Load application -->
-  <script data-main="../../app/config"
+  <script data-main="../../app/config.test"
     src="../../vendor/jam/require.js"></script>
 
   <!-- Declare your test files to be run here -->
   <script>
+
     // Ensure you point to where your tests are, base directory is app/, which
     // is why ../test is necessary
-    require({ paths: { tests: "../test/qunit/tests" } }, [
+    require({ 
+	    deps: ["../vendor/jam/require.config", "backbone","backbone.layoutmanager","../../app/main"
+ 
+	    ],
+		paths: {
+			 tests: "../test/qunit/tests" ,
+			 app: "../../app" 
+		} 
+		
+	}, [
 
       // Load the example tests, replace this and add your own tests
-      "tests/example"
+      "tests/example",
+	  "tests/app"
 
     ]);
   </script>

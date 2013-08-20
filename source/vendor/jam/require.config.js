@@ -19,6 +19,11 @@ var jam = {
             "name": "lodash",
             "location": "../vendor/jam/lodash",
             "main": "./lodash.js"
+        },
+        {
+            "name": "extend",
+            "location": "../vendor/jam/extend",
+            "main": "./extend.js"
         }
     ],
     "version": "0.2.11",

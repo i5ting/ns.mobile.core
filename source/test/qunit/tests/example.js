@@ -1,5 +1,15 @@
+
 test("one tautology", function() {
   ok(true);
+  
+
+  // a = require("backbone");
+  
+  // var s = require("./app");
+  // console.log(s);
+  
+
+  // console.log(a);
 });
 
 module("simple tests");

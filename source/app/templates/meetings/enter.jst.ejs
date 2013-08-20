@@ -1,0 +1,6 @@
+<img id='base_png' src="<%= ApiServer + doc.image_url %>">
+<div id="saved_png">
+<% $.each(doc.history_pngs, function(i, v) { %> 
+  <img src="<%= ApiServer + v.replace('public','') %>" />
+<% });%>
+</div>
