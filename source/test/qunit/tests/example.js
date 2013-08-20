@@ -43,22 +43,22 @@ test("example", function() {
   //console.log("During");
 });
 
-module("async");
-
-test("multiple async", function() {
-  expect(2);
-
-  stop();
-
-  setTimeout( function( ) {
-    ok(true, "async operation completed");
-    start();
-  }, 500);
-
-  stop();
-
-  setTimeout(function() {
-    ok(true, "async operation completed");
-    start();
-  }, 500);
-});
+// module("async");
+// 
+// test("multiple async", function() {
+//   expect(2);
+// 
+//   stop();
+// 
+//   setTimeout( function( ) {
+//     ok(true, "async operation completed");
+//     start();
+//   }, 500);
+// 
+//   stop();
+// 
+//   setTimeout(function() {
+//     ok(true, "async operation completed");
+//     start();
+//   }, 500);
+// });

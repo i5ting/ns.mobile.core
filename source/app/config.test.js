@@ -9,7 +9,7 @@ require.config({
 
   paths: {
     // Put paths here.
- 	app:"app"
+ 	// app:"app"
  
   },
 

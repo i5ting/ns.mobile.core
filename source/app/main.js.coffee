@@ -1,5 +1,5 @@
 define (require, exports, module) ->
-	
+	 
 	m = require("models/meeting")
 	a = new m
 	console.log a;
