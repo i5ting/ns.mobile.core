@@ -47,7 +47,7 @@
 
 set :css_dir, 'stylesheets'
 
-set :js_dir, 'javascripts'
+set :js_dir, 'app'
 
 set :images_dir, 'images'
 

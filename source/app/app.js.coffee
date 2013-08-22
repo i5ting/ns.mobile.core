@@ -3,8 +3,8 @@ define (require, exports, module) ->
 
 	manage = require("backbone.layoutmanager")
 	app = 
-	  # The root path to run the application.
-	  root: "/"
+	    # The root path to run the application.
+	    root: "/"
 
 	JST = window.JST = window.JST || {};
 

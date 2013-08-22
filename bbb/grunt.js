@@ -32,7 +32,7 @@ module.exports = function(grunt) {
     // The concat task depends on this file to exist, so if you decide to
     // remove this, ensure concat is updated accordingly.
     jst: {
-      "templates.js": [
+      "dist/debug/templates.js": [
         "app/templates/**/*.html"
       ]
     },
