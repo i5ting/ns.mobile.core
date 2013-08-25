@@ -13,6 +13,9 @@ define (require, exports, module) ->
       #alert(11);
       console.log "ddd"
       v = require("views/meeting")
-      a = new v("alfred.sang")
+      a = new v()
+      # a.el='.page'
+      a.render()
+      @
             
   module.exports = new Router()
