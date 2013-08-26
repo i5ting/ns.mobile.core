@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset='utf8'>
+  <title>Backbone Test Suite</title>
+  
+  
+  <!-- Load local jQuery. This can be overridden with a ?jquery=___ param. -->
+  <script src="../../libs/jquery-loader.js"></script>
+  <!-- Load local QUnit. -->
+  <link rel="stylesheet" href="../../libs/qunit/qunit.css" media="screen">
+  <script src="../../libs/qunit/qunit.js"></script>
+  <!-- Load local lib and tests. -->
+  <script src="../../libs/json2.js"></script>
+  <script src="../../libs/jquery/jquery.js"></script>
+  <script src="../../libs/qunit.js"></script>
+  <script src="../../libs/underscore.js"></script>
+  <script src="../../libs/backbone.js"></script>
+  <script src="environment.js"></script>
+  <script src="noconflict.js"></script>
+  <script src="events.js"></script>
+  <script src="model.js"></script>
+  <script src="collection.js"></script>
+  <script src="router.js"></script>
+  <script src="view.js"></script>
+  <script src="sync.js"></script>
+
+  <!-- Removing access to jQuery and $. But it'll still be available as _$, if
+       you REALLY want to mess around with jQuery in the console. REMEMBER WE
+       ARE TESTING A PLUGIN HERE, THIS HELPS ENSURE BEST PRACTICES. REALLY. -->
+  <script>window._$ = jQuery.noConflict(true);</script>
+</head>
+<body>
+  <div id="qunit"></div>
+  <div id="qunit-fixture">
+    <span>lame test markup</span>
+    <span>normal test markup</span>
+    <span>awesome test markup</span>
+  </div>
+</body>
+</html>

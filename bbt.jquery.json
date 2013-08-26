@@ -1,0 +1,26 @@
+{
+  "name": "bbt",
+  "title": "Bbt",
+  "description": "backbone test",
+  "version": "0.1.0",
+  "homepage": "https://github.com/i5ting/ns.mobile.core",
+  "author": {
+    "name": "alfred.sang",
+    "email": "shiren1118@126.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/i5ting/ns.mobile.core.git"
+  },
+  "bugs": "https://github.com/i5ting/ns.mobile.core/issues",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/i5ting/ns.mobile.core/blob/master/LICENSE-MIT"
+    }
+  ],
+  "dependencies": {
+    "jquery": "*"
+  },
+  "keywords": []
+}
